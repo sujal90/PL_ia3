@@ -1,5 +1,12 @@
+// Data Structures - Internal Activity 3, Question 2
+// PRN: 202501090028
+// Seed S = 28; Scenario = Mango varieties (PRN % 3 = 2)
+// Dataset: v[i] = (28 + 13*i) % 100, i = 0..19
+// Hash: division method; collision resolution: linear probing
+// Table size 23 is a documented implementation choice.
 #include <iostream>
 #include <iomanip>
+#include <string>
 #include <vector>
 using namespace std;
 
@@ -63,11 +70,17 @@ public:
 };
 
 int main() {
+    constexpr long long PRN = 202501090028LL;
+    constexpr int SEED = static_cast<int>(PRN % 10000);
+    cout << "PRN: " << PRN << "\nScenario: Mango varieties\n";
+    cout << "Seed: " << SEED << " | Table size: 23 | Division hashing + linear probing\n\n";
+
     MangoHashTable hashTable;
-    hashTable.insert(28);
-    hashTable.insert(6);
-    hashTable.insert(97);
-    hashTable.insert(97);
+    for (int i = 0; i < 20; ++i) {
+        int key = (SEED + 13 * i) % 100;
+        hashTable.insert(key);
+    }
+
     hashTable.display();
     cout << "\nSearch Mango-97: " << hashTable.search(97) << '\n';
     cout << "Search Mango-99: " << hashTable.search(99) << " (-1 means absent)\n";
