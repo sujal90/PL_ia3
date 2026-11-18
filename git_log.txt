@@ -1,0 +1,55 @@
+commit 620f5dd564d30ff1e879ca62a0db66e867cc323e
+Author: sujal90 <sujal90@users.noreply.github.com>
+Date:   Wed Nov 18 23:07:49 2026 +0530
+
+    Complete personalized testing
+
+ .gitignore              |  1 +
+ IA3_Q2_202501090028.cpp | 21 +++++++++++++++++----
+ debugging_log.txt       | 20 ++++++++++++++++++++
+ 3 files changed, 38 insertions(+), 4 deletions(-)
+
+commit 10f9c619e041a4fa2b0bf6eaf2290e79c29f319a
+Author: sujal90 <sujal90@users.noreply.github.com>
+Date:   Wed Nov 18 23:06:18 2026 +0530
+
+    Add search and validation
+
+ IA3_Q2_202501090028.cpp | 27 +++++++++++++++++++++++++++
+ 1 file changed, 27 insertions(+)
+
+commit 5b945c0db579131dc2cfb62dc721ead153747d93
+Author: sujal90 <sujal90@users.noreply.github.com>
+Date:   Wed Nov 18 23:05:48 2026 +0530
+
+    Handle collisions using linear probing
+
+ IA3_Q2_202501090028.cpp | 30 ++++++++++++++++++++++++++++--
+ 1 file changed, 28 insertions(+), 2 deletions(-)
+
+commit e13e08b0ae8daeb6df4e26b5eda766402844f2dc
+Author: sujal90 <sujal90@users.noreply.github.com>
+Date:   Wed Nov 18 23:04:30 2026 +0530
+
+    Implement division hash function
+
+ IA3_Q2_202501090028.cpp | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 43708fd16ca6fc61829553fba5e427f7b7114937
+Author: sujal90 <sujal90@users.noreply.github.com>
+Date:   Wed Nov 18 23:02:51 2026 +0530
+
+    Implement hash table structure
+
+ IA3_Q2_202501090028.cpp | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+
+commit 8e13f4ebefddc9df7e424b571ad8ef75e6d9628b
+Author: sujal90 <sujal90@users.noreply.github.com>
+Date:   Wed Nov 18 23:01:48 2026 +0530
+
+    Initialize mango hash table project
+
+ IA3_Q2_202501090028.cpp | 6 ++++++
+ 1 file changed, 6 insertions(+)
